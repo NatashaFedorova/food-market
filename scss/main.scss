@@ -4,8 +4,9 @@
 
 @import './utils/base/normalize';
 @import './utils/base/reset';
-@import './utils/base/commont';
+@import './utils/base/common';
 
+@import './components/elements/container';
 @import './components/elements/button';
 
 @import './components/sections/header';

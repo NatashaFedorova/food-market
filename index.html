@@ -9,6 +9,285 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header></header>
+    <header class="page-header">
+      <div class="container">
+        <a class="page-header__logo link" href="">FOOD</a>
+
+        <!-- кнопки открытия и закрытия моб меню -->
+        <button class="page-header__button-mob-menu button" type="button">
+          <svg class="page-header__icon-menu" width="20" height="16">
+            <use href="./images/icons.svg#icon-mob-menu"></use>
+          </svg>
+        </button>
+        <button class="page-header__button-close button" type="button">
+          <svg class="page-header__icon-close" width="20" height="16">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item"><a class="nav__link link" href="">About</a></li>
+            <li class="nav__item"><a class="nav__link link" href="">Menu</a></li>
+            <li class="nav__item"><a class="nav__link link" href="">Blog</a></li>
+            <li class="nav__item"><a class="nav__link link" href="">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button class="page-header__button-form" type="button">Contact Us</button>
+        <!-- кнопка Свяжитесь с нами  откроет модалку с формой для внесения контактов с кнопкой submit, далее модалка благодарность "Спасибо, мы с вами саяжемся" -->
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <img src="./images/img-mob/mob-img-png/mob-img-hero@1x-min.png" alt="food" />
+          <div class="hero__content">
+            <p class="hero__top-title top-title">Food Market</p>
+            <h1 class="hero__title title">Welcome to Food Market</h1>
+            <p class="hero_text text">
+              The sky was cloudless and of a deep dark blue. The spectacle before us was indeed
+              sublime.
+            </p>
+            <button class="hero__button">See Menu</button>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="container">
+          <p class="feature__top-title top-title">Best Food</p>
+          <h2 class="feature__title title">Features</h2>
+          <p class="feature_text text">
+            The sky was cloudless and of a deep dark blue. The spectacle before us was indeed
+            sublime.
+          </p>
+          <ul class="feature__list list">
+            <li class="feature__item">
+              <div class="feature__icon-thumb">
+                <svg class="feature__icon" width="56" height="64">
+                  <use href="./images/icons.svg#icon-apple"></use>
+                </svg>
+              </div>
+              <h3 class="feature__title-card title">Fresh Food</h3>
+              <p class="feature__text-card text">
+                As I went on, still gaining velocity, the palpitation of night and day merged.
+              </p>
+              <a class="feature__link link" href="">Explore</a>
+            </li>
+            <li class="feature__item">
+              <div class="feature__icon-thumb">
+                <svg class="feature__icon" width="64" height="56">
+                  <use href="./images/icons.svg#icon-scooter"></use>
+                </svg>
+              </div>
+              <h3 class="feature__title-card title">Delivery</h3>
+              <p class="feature__text-card text">
+                Went on, still gaining velocity, the palpitation of night and day merged.
+              </p>
+              <a class="feature__link link" href="">Download</a>
+            </li>
+            <li class="feature__item">
+              <div class="feature__icon-thumb">
+                <svg class="feature__icon" width="64" height="64">
+                  <use href="./images/icons.svg#icon-hat"></use>
+                </svg>
+              </div>
+              <h3 class="feature__title-card title">Restaurant</h3>
+              <p class="feature__text-card text">
+                Still gaining velocity, the went palpitation of night and day merged.
+              </p>
+              <a class="feature__link link" href="">Read More</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <img src="./images/img-mob/mob-img-png/mob-img-section@1x-min.png" alt="food" />
+          <div class="about__content">
+            <p class="about__top-title top-title">About Us</p>
+            <h2 class="about__title title">Most Biggest Food Market</h2>
+            <p class="about_bottom-text text">The sky was cloudless and of a deep</p>
+            <p class="about_text text">
+              A peep at some distant orb has power to raise and purify our thoughts like a strain of
+              sacred music.
+            </p>
+            <button class="about__button">About Us</button>
+          </div>
+          <ul class="about__list list">
+            <li class="about__item">
+              <span class="about__count">2020</span>
+              <h3 class="about__title-card title">Created</h3>
+              <p class="about__text text">As I went on, still gaining velocity, the palpitation</p>
+            </li>
+            <li class="about__item">
+              <span class="about__count">45</span>
+              <h3 class="about__title-card title">Employes</h3>
+              <p class="about__text text">Went on, still gaining velocity, the palpitation</p>
+            </li>
+            <li class="about__item">
+              <span class="about__count">1000</span>
+              <h3 class="about__title-card title">Orders</h3>
+              <p class="about__text text">Still gaining velocity, the palpitation of night</p>
+            </li>
+            <li class="about__item">
+              <span class="about__count">89</span>
+              <h3 class="about__title-card title">Products</h3>
+              <p class="about__text text">Gaining velocity, the palpitation of night</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="container">
+          <p class="menu__top-title top-title">Our Menu</p>
+          <h2 class="menu__title title">Favorite Food</h2>
+          <p class="menu_text text">
+            The sky was cloudless and of a deep dark blue. The spectacle before us was indeed
+            sublime.
+          </p>
+
+          <ul class="menu__rating-list list">
+            <li class="menu__rating-item">
+              <a class="menu__rating-link link" href="">
+                <div>
+                  <img src="./images/img-mob/mob-img-jpg/mob-img-rating@1x.jpg" alt="food" />
+                </div>
+                <p class="menu__rating-name">Paleta de Quesos</p>
+                <div class="menu__rating-stars">
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                </div>
+                <span class="menu__rating-price">&dollar;9</span>
+              </a>
+            </li>
+
+            <li class="menu__rating-item">
+              <a class="menu__rating-link link" href="">
+                <div>
+                  <!-- заменить картинку -->
+                  <img src="./images/img-mob/mob-img-jpg/mob-img-rating@1x.jpg" alt="food" />
+                </div>
+                <p class="menu__rating-name">Cambalachne</p>
+                <div class="menu__rating-stars">
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                </div>
+                <span class="menu__rating-price">&dollar;7</span>
+              </a>
+            </li>
+
+            <li class="menu__rating-item">
+              <a class="menu__rating-link link" href="">
+                <div>
+                  <!-- заменить картинку -->
+                  <img src="./images/img-mob/mob-img-jpg/mob-img-rating@1x.jpg" alt="food" />
+                </div>
+                <p class="menu__rating-name">Betabel</p>
+                <div class="menu__rating-stars">
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                  <svg class="menu__icon-star" width="20" height="16">
+                    <use href="./images/icons.svg#icon-rating"></use>
+                  </svg>
+                </div>
+                <span class="menu__rating-price">&dollar;3</span>
+              </a>
+            </li>
+          </ul>
+          <!-- сделать через css -->
+          <div class="menu_circle-thumb">
+            <span class="menu__circle">0</span>
+            <span class="menu__circle">0</span>
+            <span class="menu__circle">0</span>
+          </div>
+          <!-- ссылка как кнопка -->
+          <a class="menu__link link">Full Menu</a>
+          <p class="menu__title-category title">Explore by category</p>
+          <ul class="menu__list-category list">
+            <li class="menu__item-category">
+              <a class="menu__link-category link" href="">
+                <div class="menu__icon-thumb">
+                  <svg class="menu__icon-grape" width="43" height="52">
+                    <use href="./images/icons.svg#icon-grape"></use>
+                  </svg>
+                </div>
+                <p class="menu__text-category text">Fruits</p>
+              </a>
+            </li>
+            <li class="menu__item-category">
+              <a class="menu__link-category link" href="">
+                <div class="menu__icon-thumb">
+                  <svg class="menu__icon-cloche" width="52" height="52">
+                    <use href="./images/icons.svg#icon-cloche"></use>
+                  </svg>
+                </div>
+                <p class="menu__text-category text">Dinner</p>
+              </a>
+            </li>
+            <li class="menu__item-category">
+              <a class="menu__link-category link" href="">
+                <div class="menu__icon-thumb">
+                  <svg class="menu__icon-cake" width="44" height="52">
+                    <use href="./images/icons.svg#icon-cake"></use>
+                  </svg>
+                </div>
+                <p class="menu__text-category text">Bakery</p>
+              </a>
+            </li>
+            <li class="menu__item-category">
+              <a class="menu__link-category link" href="">
+                <div class="menu__icon-thumb">
+                  <svg class="menu__icon-glass" width="48" height="52">
+                    <use href="./images/icons.svg#icon-glass"></use>
+                  </svg>
+                </div>
+                <p class="menu__text-category text">Drinks</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <!-- 2 модалки: с формой, с благодарностью за заполнение формы. Одна вызывает другую -->
+    <!-- модалка под кнопку About Us -->
+    <!-- меню полное, с разделами, на которые ведут отдельные секции -->
   </body>
 </html>
